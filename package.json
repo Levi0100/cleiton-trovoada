@@ -1,0 +1,26 @@
+{
+  "name": "cleiton-trovoada",
+  "version": "1.0.0",
+  "description": "Um bot de sistema de level e moderação",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levi0100",
+  "license": "ISC",
+  "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
+    "canvacord": "^5.4.2",
+    "canvas": "^2.9.0",
+    "dotenv": "^10.0.0",
+    "enhanced-ms": "^1.0.1",
+    "eris": "^0.17.0",
+    "languagedetect": "^2.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2",
+    "pretty-ms": "^7.0.1"
+  },
+  "repository": "https://github.com/Levi0100/cleiton-trovoada.git",
+  "private": false
+}
