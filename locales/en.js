@@ -5,8 +5,9 @@ export default {
             case 'noReason': return 'Enter the punishment reason'
             case 'noTicket': return `${options.user} has no open tickets.`
             case 'ticketWillBeDeleted': return 'Await, the ticket will be deleted in a few seconds...'
-            case 'bannedSuccessfully': `${options.user} has been banned successfully!`
-            case ''
+            case 'bannedSuccessfully': return `${options.user} has been banned successfully!`
+            case 'invalidMember': return 'Invalid member!'
+            case 'invalidUser': return 'Invalid user!'
             default: return content;
         }
     }
