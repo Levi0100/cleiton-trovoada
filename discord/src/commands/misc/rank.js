@@ -56,7 +56,7 @@ export default class RankCommand extends Command {
                         else a = 1
                         exp.forEach(x => {
                             const member = message.guild.members.get(x.id);
-                            embed.addField(`${a++}° ${member.username}`, `Nível ${x.level}\n${x.xp} XP`);
+                            if(member) embed.addField(`${a++}° ${member.username}`, `Nível ${x.level}\n${x.xp} XP`);
                         });
                         message.reply(embed.build());
                     })
